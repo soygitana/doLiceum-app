@@ -1,0 +1,21 @@
+.app-container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-flex {
+    flex: 1;
+    padding: .5rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,13 +1,11 @@
 import React from 'react';
-import Logo from "../src/components/logo.jsx"
+import Navigation from "../src/components/navigation.jsx";
 import './App.scss';
 
 function App() {
   return (
     <div>
-<Logo />
-
-
+ <Navigation/>
     </div>
   );
 }

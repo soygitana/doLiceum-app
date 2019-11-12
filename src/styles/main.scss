@@ -1,10 +1,7 @@
-.App-link {
-    color: #d31875;
-    font-family: 'Dancing Script', cursive;
-  }
-
   @import "normalize";
   
   @import "variables";
 
-  @import "../styles/partials/logo";
+  @import "../styles/partials/base";
+
+  @import "../styles/partials/navigation";

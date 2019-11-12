@@ -1,14 +1,6 @@
-import React, {Component} from "react";
+import React from "react";
+import logo from '../assets/logo.png';
 
-
-class Logo extends Component {
-    render() {
-        return (
-            <>
-       <img src="../assets.logo.jpg" alt=""/>
-          </>
-        )
-    }
-}
+const Logo = () =>  <img className="logo img-fluid" src={logo} alt="logo"/>
 
 export default Logo;
