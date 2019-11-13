@@ -19,7 +19,7 @@
     .page-nav {
       display: flex;
       flex-direction: row;
-      margin: 0;
+      margin-top: 60px;
       height: 80px;
       font-family: $fontPrimary;
       background: $colorLight;
@@ -50,5 +50,9 @@
           text-transform: uppercase;
           color: $colorDarkGrey;
           font-family: $fontPrimary;
+
+          &:hover {
+              color: $colorDeco;
+          }
       }
     }
