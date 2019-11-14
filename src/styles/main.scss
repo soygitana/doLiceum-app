@@ -1,7 +1,9 @@
-  @import "normalize";
-  
-  @import "variables";
+@import "normalize";
 
-  @import "../styles/partials/base";
+@import "variables";
 
-  @import "../styles/partials/navigation";
+@import "../styles/partials/base";
+
+@import "../styles/partials/navigation";
+
+@import "../styles/partials/hero";

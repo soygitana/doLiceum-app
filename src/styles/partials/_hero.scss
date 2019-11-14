@@ -1,0 +1,30 @@
+.hero {
+  .line {
+    margin: 25px 0;
+  }
+
+  .title {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+
+  .box-flex {
+    img {
+      border: 1px solid $colorGrey;
+    }
+  }
+
+  .container-flex:nth-last-of-type(1) {
+    .box-flex {
+      border: 1px solid $colorGrey;
+      margin: 20px;
+      padding: 10px 15px 25px 15px;
+      border-radius: 55px;
+      z-index: 1;
+    }
+  }
+}
