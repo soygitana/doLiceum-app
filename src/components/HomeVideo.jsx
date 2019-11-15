@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import aerial_flow from '../assets/aerial_flow.mp4';
 import {Player} from 'video-react';
 
