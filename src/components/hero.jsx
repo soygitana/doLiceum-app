@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Navigation from './navigation.jsx';
+import Navigation from './Navigation.jsx';
 // import Link from 'link-react';
 import home1 from '../assets/home1.jpg';
 import home2 from '../assets/home2.jpg';
+
 
 class Hero extends Component {
     render() {
@@ -11,7 +12,14 @@ class Hero extends Component {
                 <div className="app-container">
                     <section className="hero">
 
+                    <div className="container-flex contact">
+                         <i class="fa fa-phone"></i>
+                        <p>500 987 679</p>   
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </div> 
+
                         <Navigation />
+
 
                         <div className="container-flex">
                             <div className="box-flex">
@@ -46,7 +54,7 @@ class Hero extends Component {
                                 <a className="button button-circle" href="#">More</a>
                             </div>
                         </div>
-
+                        
                     </section>
                 </div>
             </>

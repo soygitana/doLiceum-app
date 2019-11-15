@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Logo from '../components/logo.jsx'
+import Logo from './Logo.jsx'
 
 class Navigation extends Component {
     render() {
