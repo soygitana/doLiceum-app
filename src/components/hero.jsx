@@ -12,11 +12,11 @@ class Hero extends Component {
                 <div className="app-container">
                     <section className="hero">
 
-                    <div className="container-flex contact">
-                         <i class="fa fa-phone"></i>
-                        <p>500 987 679</p>   
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        </div> 
+                        <div className="container-flex contact">
+                            <i class="fa fa-phone"></i>
+                            <p>500 987 679</p>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </div>
 
                         <Navigation />
 
@@ -54,12 +54,11 @@ class Hero extends Component {
                                 <a className="button button-circle" href="#">More</a>
                             </div>
                         </div>
-                        
+
                     </section>
                 </div>
             </>
         )
     }
 }
-
 export default Hero;
