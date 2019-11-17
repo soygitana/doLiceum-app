@@ -3,6 +3,7 @@ import Hero from './Hero.jsx'
 import HomeClasses from './HomeClasses.jsx'
 import HomeVideo from './HomeVideo.jsx'
 import HomePrices from './HomePrices.jsx'
+import HomeVoucher from './HomeVoucher.jsx'
 
 class Home extends Component {
     render() {
@@ -16,6 +17,7 @@ class Home extends Component {
                     <HomePrices />
 
                 </div>
+                <HomeVoucher />
             </>
         )
     }

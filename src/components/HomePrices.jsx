@@ -73,13 +73,10 @@ class HomePrices extends Component {
                             </div>
                             <a className="button" href="#">buy</a>
                         </div>
-
                     </div>
-
-
-
-
-
+                    <div className="container-flex-button">
+                        <a className="button" href="#">check prices</a>
+                    </div>
                 </section>
 
             </>
