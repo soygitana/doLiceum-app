@@ -4,6 +4,7 @@ import HomeClasses from './HomeClasses.jsx'
 import HomeVideo from './HomeVideo.jsx'
 import HomePrices from './HomePrices.jsx'
 import HomeVoucher from './HomeVoucher.jsx'
+import Footer from './Footer.jsx'
 
 class Home extends Component {
     render() {
@@ -18,6 +19,7 @@ class Home extends Component {
 
                 </div>
                 <HomeVoucher />
+                <Footer/>
             </>
         )
     }

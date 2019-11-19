@@ -4,7 +4,7 @@ class HomeClasses extends Component {
     render() {
         return (
             <>
-                <section className="home-classes">
+                <section id="classes" className="home-classes">
                     <div className="container-flex">
                         <h2 className="title">Choose a Yoga style to fit your intention </h2>
                         <a href="#" className="button">Check our classes</a>

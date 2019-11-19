@@ -10,7 +10,7 @@ class Hero extends Component {
         return (
             <>
                 <div className="app-container">
-                    <section className="hero">
+                    <section id="about" className="hero">
 
                         <div className="container-flex contact">
                             <i class="fa fa-phone"></i>

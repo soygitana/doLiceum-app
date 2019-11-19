@@ -2,7 +2,7 @@
     height: 250px;
     background: $colorDeco;
     color: #fff;
-    margin-top: 50px;
+    margin: 50px 0px;
     padding-left: 450px;
 
     .title {
@@ -18,7 +18,17 @@
 
     .button {
         background: $colorLight;
-        color: $colorDark;
+        color: rgb(53, 52, 52);
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    i {
+        font-size: 20px;
+        padding-right: 10px;
+        margin-top: 0px;
+        color:  rgb(53, 52, 52);
+       
     }
 }

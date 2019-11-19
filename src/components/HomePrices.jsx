@@ -4,7 +4,7 @@ class HomePrices extends Component {
     render() {
         return (
             <>
-                <section className="home-prices">
+                <section id="membership" className="home-prices">
                     <h2 className="title">Choose your package</h2>
                     <div className="container-flex">
                         <div className="box-flex">
@@ -75,7 +75,7 @@ class HomePrices extends Component {
                         </div>
                     </div>
                     <div className="container-flex-button">
-                        <a className="button" href="#">check prices</a>
+                        <a className="button" href="#"><i class="far fa-credit-card"></i>check prices</a>
                     </div>
                 </section>
 

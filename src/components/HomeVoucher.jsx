@@ -10,7 +10,7 @@ class HomeVoucher extends Component {
                         <div className="box-flex">
                             <h2 className="title">Get a VOUCHER</h2>
                             <p className="text">Sit amet CONSECTEUR</p>
-                            <a className="button" href="#">voucher</a>
+                            <a className="button" href="#"><i class="fas fa-gift"></i>voucher</a>
                         </div>
                     </div>
 
