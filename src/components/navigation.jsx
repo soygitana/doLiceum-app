@@ -7,18 +7,27 @@ class Navigation extends Component {
     render() {
         return (
             <>
-                <nav className="page-nav">
-                    <Logo />
-                    <h1>Namaste</h1>
-                    <ul className="page-nav-list">
-                        {/* <li><Link to='/'>home</Link></li> */}
-                        <li><AnchorLink href='#about'>about</AnchorLink></li>
-                        <li><AnchorLink href='#classes'>classes</AnchorLink></li>
-                        <li><AnchorLink href='#classes'>class schedule</AnchorLink></li>
-                        <li><AnchorLink href='#membership'>membership</AnchorLink></li>
-                        <li><AnchorLink href='#'>contact</AnchorLink></li>
-                    </ul>
-                </nav>
+                <div className="app-container">
+                    <div className="hero">
+                        <div className="container-flex contact">
+                            <i class="fa fa-phone"></i>
+                            <p>500 987 679</p>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <nav className="page-nav">
+                        <Logo />
+                        <h1>Namaste</h1>
+                        <ul className="page-nav-list">
+                            <li><AnchorLink href='#about'>home</AnchorLink></li>
+                            <li><AnchorLink href='#about'>about</AnchorLink></li>
+                            <li><AnchorLink href='#classes'>classes</AnchorLink></li>
+                            <li><Link to='/schedule'>class schedule</Link></li>
+                            <li><Link to='/membership'>membership</Link></li>
+                            <li><Link to='/contact'>contact</Link></li>
+                        </ul>
+                    </nav>
+                </div>
             </>
         )
     }

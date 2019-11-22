@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navigation from './Navigation.jsx';
+// import Navigation from './Navigation.jsx';
 // import Link from 'link-react';
 import home1 from '../assets/home1.jpg';
 import home2 from '../assets/home2.jpg';
@@ -12,13 +12,9 @@ class Hero extends Component {
                 <div className="app-container">
                     <section id="about" className="hero">
 
-                        <div className="container-flex contact">
-                            <i class="fa fa-phone"></i>
-                            <p>500 987 679</p>
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        </div>
-
-                        <Navigation />
+                     
+{/* 
+                        <Navigation /> */}
 
 
                         <div className="container-flex">
