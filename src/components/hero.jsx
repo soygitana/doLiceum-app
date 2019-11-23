@@ -16,7 +16,7 @@ class Hero extends Component {
                             <div className="box-flex">
                                 <img className="img-fluid" src={home1} alt="city" />
                                 <h2 className="title">Wybierz swoją drogę</h2>
-                                <a className="button" href="#">ZNAJDŹ LO</a>
+                                <Link className="button" to="/search">ZNAJDŹ LO</Link>
                             </div>
                             <div className="box-flex">
                                 <img className="img-fluid" src={home2} alt="yoga" />

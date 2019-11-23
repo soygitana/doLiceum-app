@@ -18,8 +18,8 @@ class Navigation extends Component {
                         <Logo />
                         <h1>do<span>LICEUM</span></h1>
                         <ul className="page-nav-list">
-                            <li><AnchorLink href='#about'>strona główna</AnchorLink></li>
-                            <li><Link to='/find'>znajdź szkołę</Link></li>
+                            <li><Link to='/#'>strona główna</Link></li>
+                            <li><Link to='/search'>znajdź szkołę</Link></li>
                             <li><Link to='/quiz'>test predyspozycji</Link></li>
                             <li><Link to='/contact'>kontakt</Link></li>
                         </ul>
