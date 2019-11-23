@@ -122,8 +122,8 @@ class Test extends Component {
     render() {
         return (
             <div className="app-container">
+                <h2 className="title-test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis eius, fuga tempore pariatur excepturi qui in corrupti odio culpa aliquamexcepturi qui in corrupti odio culpa aliquam?</h2>
                 <div className="test">
-                    <h2 className="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis eius, fuga tempore pariatur excepturi qui in corrupti odio culpa aliquamexcepturi qui in corrupti odio culpa aliquam?</h2>
                     {this.state.result ? this.renderResult() : this.renderQuiz()}
                 </div>
             </div>
