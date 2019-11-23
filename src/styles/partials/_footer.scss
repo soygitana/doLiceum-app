@@ -21,24 +21,23 @@
     font-weight: 600;
     padding-right: 5px;
   }
-  
+
   a {
     color: $colorDeco;
     text-decoration: none;
     font-size: 14px;
+
     &:hover {
       color: $colorDeco2;
     }
   }
 
-  .about,
-  .teachers {
-    min-width: 180px;
-  }
-
-  .rules {
+  .about {
     min-width: 450px;
   }
+
+
+
 
   .container-flex {
     .box-flex {
@@ -50,12 +49,23 @@
       align-items: flex-start;
       margin: 0 10px;
     }
+
+    .privacy {
+      min-width: 180px;
+      display: flex;
+      align-items: center;
+
+      h2 {
+        text-align: center;
+      }
+    }
   }
 
   .container-flex:nth-of-type(2) {
     height: 70px;
     background: #111111;
     justify-content: center;
+
     p {
       font-size: 12px;
       letter-spacing: 0.5px;

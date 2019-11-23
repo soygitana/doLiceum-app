@@ -1,0 +1,32 @@
+.test {
+    text-align: center;
+    list-style: none;
+    margin: 50px 0;
+    overflow: hidden;
+
+    .title {
+        margin: 80px 0 35px 0;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.5;
+
+    }
+
+    .container-flex {
+        justify-content: center;
+    }
+
+    .box-flex {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px;
+    }
+}
+
+.answerOption {
+    list-style: none;
+
+    label {
+        padding: 5px;
+    }
+}

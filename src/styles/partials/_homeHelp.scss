@@ -1,0 +1,26 @@
+.home-classes {
+  margin-top: 50px;
+
+  .container-flex {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    color: $colorDarkestGrey;
+  }
+
+  ul {
+    list-style: none;
+    text-align: left;
+
+    li {
+      padding: 20px
+    }
+  }
+}

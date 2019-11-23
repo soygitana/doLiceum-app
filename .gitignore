@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/react-transition-group
 /.pnp
 .pnp.js
 

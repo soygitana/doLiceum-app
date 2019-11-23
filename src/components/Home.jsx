@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Hero from './Hero.jsx'
-import HomeClasses from './HomeClasses.jsx'
-import HomeVideo from './HomeVideo.jsx'
-import HomePrices from './HomePrices.jsx'
-import HomeVoucher from './HomeVoucher.jsx'
+import HomeAbout from './HomeAbout.jsx'
+// import HomeVideo from './HomeVideo.jsx'
+import HomeHelp from './HomeHelp.jsx'
+import HomeTest from './HomeTest.jsx'
 
 
 class Home extends Component {
@@ -13,12 +13,12 @@ class Home extends Component {
                 <div className="app-container">
 
                     <Hero />
-                    <HomeClasses />
-                    <HomeVideo />
-                    <HomePrices />
+                    <HomeHelp />
+                    {/* <HomeVideo /> */}
+                    <HomeAbout />
 
                 </div>
-                <HomeVoucher />
+                <HomeTest />
             </>
         )
     }

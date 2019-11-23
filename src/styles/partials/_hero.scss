@@ -27,7 +27,7 @@
     .fa-facebook-square {
       color: #3464a0;
     }
-   
+
   }
 
   .line {
@@ -38,6 +38,7 @@
     margin-top: 25px;
     margin-bottom: 5px;
     color: $colorDarkestGrey;
+    text-align: center;
   }
 
   .button {
@@ -58,5 +59,13 @@
       border-radius: 55px;
       z-index: 1;
     }
+  }
+
+  .title-main {
+    font-size: 20px;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    line-height: 1.5;
   }
 }
