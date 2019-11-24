@@ -21,7 +21,7 @@ class Hero extends Component {
                             <div className="box-flex">
                                 <img className="img-fluid" src={home2} alt="yoga" />
                                 <h2 className="title">Sprawdź swoje predyspozycje</h2>
-                                <Link className="button" to="/quiz">TEST</Link>
+                                <Link className="button" to="/quiz">QUIZ</Link>
                             </div>
                         </div>
                         <div className="line"></div>

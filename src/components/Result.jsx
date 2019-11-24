@@ -14,8 +14,9 @@ function Result(props) {
             transitionAppearTimeout={500}
         >
             <div>
-                You prefer <strong>{props.quizResult}</strong>!
-      </div>
+                <p>Twoja super moc to: <strong>{props.quizResult}</strong>!</p>
+                <p>Gdzie możesz jej użyć? <strong>SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE NR 3</strong></p>
+            </div>
         </CSSTransitionGroup>
     );
 }

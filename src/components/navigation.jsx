@@ -20,7 +20,7 @@ class Navigation extends Component {
                         <ul className="page-nav-list">
                             <li><Link to='/#'>strona główna</Link></li>
                             <li><Link to='/search'>znajdź szkołę</Link></li>
-                            <li><Link to='/quiz'>test predyspozycji</Link></li>
+                            <li><Link to='/quiz'>quiz</Link></li>
                             <li><Link to='/contact'>kontakt</Link></li>
                         </ul>
                     </nav>

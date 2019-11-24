@@ -1,81 +1,116 @@
 var quizQuestions = [{
-        question: "What franchise would you rather play a game from?",
+        question: "Twoje ulubione przedmioty to?",
         answers: [{
-                type: "Microsoft",
-                content: "Halo"
+                type: "Matematyka",
+                content: "odp"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                type: "Fizyka",
+                content: "odp"
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                type: "Języki Obce",
+                content: "odp"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "W jakim przedmiocie najlepiej się czujesz?",
         answers: [{
-                type: "Microsoft",
-                content: "X-Box"
+                type: "Fizyka",
+                content: "odp"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                type: "Matematyka",
+                content: "odp"
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "Języki Obce",
+                content: "odp"
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "Co robisz w czasie wolnym?",
         answers: [{
-                type: "Microsoft",
-                content: "Forza"
+                type: "Matematyka",
+                content: "odp"
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
+                type: "Języki Obce",
+                content: "odp"
             },
             {
-                type: "Sony",
-                content: "Gran Turismo"
+                type: "Fizyka",
+                content: "odp"
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "Czy lubisz uczyć się języków obcych?",
         answers: [{
-                type: "Microsoft",
-                content: "BioShock"
+                type: "Chemia",
+                content: "odp"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                type: "Informatyka",
+                content: "odp"
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                type: "Języki Obce",
+                content: "odp"
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "W jakiej dzielnicy chciałbyś uczęszczać do szkoły?",
         answers: [{
-                type: "Microsoft",
-                content: "X-Box One"
+                type: "Fizyka",
+                content: "odp"
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                type: "Języki Obce",
+                content: "odp"
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
-            }
+                type: "Matematyka",
+                content: "odp"
+            },
+
+        ]
+    },
+    {
+        question: "Czy planujesz wziąć udział w wymianie zagranicznej?",
+        answers: [{
+                type: "Fizyka",
+                content: "odp"
+            },
+            {
+                type: "Języki Obce",
+                content: "odp"
+            },
+            {
+                type: "Matematyka",
+                content: "odp"
+            },
+
+        ]
+    },
+    {
+        question: "Jakiego oczekujesz wyniku z egzaminu końcowego?",
+        answers: [{
+                type: "Fizyka",
+                content: "odp"
+            },
+            {
+                type: "Języki Obce",
+                content: "odp"
+            },
+            {
+                type: "Matematyka",
+                content: "odp"
+            },
+
         ]
     }
 ];

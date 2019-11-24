@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Searchbar from "./Searchbar.jsx"
 
 class Search extends Component {
     render() {
@@ -7,7 +8,7 @@ class Search extends Component {
             <div className="app-container">
                 <section id="search" className="contact">
                     <h2 className="title">znajdź LO!</h2>
-
+                    <Searchbar />
 
 
 

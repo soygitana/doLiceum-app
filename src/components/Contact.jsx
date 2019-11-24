@@ -21,7 +21,7 @@ class Contact extends Component {
 
                         <div className="box-flex">
 
-                            <h3>Leave your data and we'll get in touch</h3>
+                            <h3>Jakieś pytania? Napisz do Nas, chętnie pomożemy!</h3>
 
                             <div className="contact-form">
                                 <form>

@@ -1,0 +1,43 @@
+/* styles for wrapping the search box */
+
+.app-searchbar {
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+/* styles for the search box */
+
+.form-control {
+    width: 50%;
+    font-family: $fontPrimary;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+
+}
+
+/* styles for the text input with search icon */
+
+.form-group {
+    position: relative;
+    top: 70px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    z-index: 2;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+    pointer-events: none;
+    color: $colorDeco;
+}
+
+.form-control:focus {
+    border-color: $colorDeco;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.075);
+}

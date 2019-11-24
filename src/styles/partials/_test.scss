@@ -13,6 +13,10 @@
     padding: 10px;
     border: 1px solid rgb(202, 199, 199);
     border-radius: 55px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -30,8 +34,26 @@
 
 .answerOption {
     list-style: none;
+    margin-left: -100px;
 
     label {
         padding: 5px;
     }
+}
+
+.question {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: $colorDeco;
+    width: 100%;
+    text-align: center;
+}
+
+.questionCount {
+    font-size: 13px;
+    width: 100%;
+    text-align: end;
+    padding-right: 20px;
 }

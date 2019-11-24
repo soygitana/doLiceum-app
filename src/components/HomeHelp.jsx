@@ -9,16 +9,16 @@ class HomeHelp extends Component {
                     <div className="container-flex">
                         <div className="box-flex">
                             <ul>
-                                <li>Podstawowe informacje</li>
-                                <li>Lokalizacje</li>
-                                <li>Średnią ilość punktów</li>
+                                <li><i class="fas fa-pencil-alt"></i>Podstawowe informacje</li>
+                                <li><i class="fas fa-pencil-alt"></i>Lokalizacje</li>
+                                <li><i class="fas fa-pencil-alt"></i>Średnią ilość punktów</li>
                             </ul>
                         </div>
                         <div className="box-flex">
                             <ul>
-                                <li>Dojazd komunikacją</li>
-                                <li>Zdawalność matur</li>
-                                <li>Dni otwarte</li>
+                                <li><i class="fas fa-pencil-alt"></i>Dojazd komunikacją</li>
+                                <li><i class="fas fa-pencil-alt"></i>Zdawalność matur</li>
+                                <li><i class="fas fa-pencil-alt"></i>Dni otwarte</li>
                             </ul>
                         </div>
                     </div>
