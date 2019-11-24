@@ -8,22 +8,34 @@ class HomeAbout extends Component {
                 <section id="membership" className="home-prices">
                     <h2 className="title">Jak to działa?</h2>
                     <div className="container-flex">
+                    
                         <div className="box-flex">
-                           <img src={logo} alt=""/>
-                        </div>
-                        <div className="box-flex">
-                           <h3>Pobieramy dane z różnych źródeł, aby móc przedstawić Ci je w jak najlepszej postaci.</h3>
+                           <h3>Wypełnij krótki quiz i przekonaj się,
+który profil klasy najbardziej odpowiada
+Twoim potrzebom oraz dowiedz się do
+jakich szkół możesz aplikować.</h3>
                             <div className="description">
-Korzystamy z danych Urzędu Miasta Warszawy, aby pobrać listę szkół oraz średnie liczby punktów, na bieżąco łączymy się z wieloma serwisami lokalizacyjnymi, aby dostarczyć Ci informacje o jak najlepszym połączeniu komunikacyjnym z Twoją wymarzoną szkołą.
-A to wszystko zebrane tylko w jednym miejscu.
+                            Korzystamy z aktualnych danych
+Urzędu Miasta, łączymy się z wieloma
+serwisami lokalizacyjnymi, aby pomóc
+Ci w wyborze najlepszej ścieżki
+edukacji. Wierzymy, że właściwy wybór
+klasy licealnej w dużej mierze wpływa
+na kolejne kluczowe decyzje w Twoim
+życiu: wybór uczelni wyższej oraz
+kariery zawodowej. Jesteśmy zdania, że
+rozwijając swoje zainteresowania,
+będziesz w stanie z łatwością znaleźć
+pracę, z której będziesz czerpać
+satysfakcję.
                               
                             </div>
-                            <a className="button" href="#">więcej...</a>
+        
                         </div>
                        
                        
                 </div>
-                 
+                <div className="line"></div>
                 </section>
 
             </>

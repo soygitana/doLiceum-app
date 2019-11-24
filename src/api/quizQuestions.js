@@ -2,15 +2,15 @@ var quizQuestions = [{
         question: "Twoje ulubione przedmioty to?",
         answers: [{
                 type: "Matematyka",
-                content: "odp"
+                content: "biologia, chemia"
             },
             {
                 type: "Fizyka",
-                content: "odp"
+                content: "mtematyka, fizyka"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "matematyka, informatyka"
             }
         ]
     },
@@ -18,15 +18,15 @@ var quizQuestions = [{
         question: "W jakim przedmiocie najlepiej się czujesz?",
         answers: [{
                 type: "Fizyka",
-                content: "odp"
+                content: "Matematyka i Informatyka"
             },
             {
                 type: "Matematyka",
-                content: "odp"
+                content: "Języki Obce"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "Biologia"
             }
         ]
     },
@@ -34,15 +34,15 @@ var quizQuestions = [{
         question: "Co robisz w czasie wolnym?",
         answers: [{
                 type: "Matematyka",
-                content: "odp"
+                content: "Czytam książki"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "Zajmuję się zwięrzętami"
             },
             {
                 type: "Fizyka",
-                content: "odp"
+                content: "Dużo podróżuję"
             }
         ]
     },
@@ -50,15 +50,15 @@ var quizQuestions = [{
         question: "Czy lubisz uczyć się języków obcych?",
         answers: [{
                 type: "Chemia",
-                content: "odp"
+                content: "tak"
             },
             {
                 type: "Informatyka",
-                content: "odp"
+                content: "nie"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "czasami"
             }
         ]
     },
@@ -66,15 +66,15 @@ var quizQuestions = [{
         question: "W jakiej dzielnicy chciałbyś uczęszczać do szkoły?",
         answers: [{
                 type: "Fizyka",
-                content: "odp"
+                content: "Białołęka"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "Śródmieście"
             },
             {
                 type: "Matematyka",
-                content: "odp"
+                content: "Praga"
             },
 
         ]
@@ -83,15 +83,15 @@ var quizQuestions = [{
         question: "Czy planujesz wziąć udział w wymianie zagranicznej?",
         answers: [{
                 type: "Fizyka",
-                content: "odp"
+                content: "tak"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "nie"
             },
             {
                 type: "Matematyka",
-                content: "odp"
+                content: "może"
             },
 
         ]
@@ -100,15 +100,15 @@ var quizQuestions = [{
         question: "Jakiego oczekujesz wyniku z egzaminu końcowego?",
         answers: [{
                 type: "Fizyka",
-                content: "odp"
+                content: "0-100"
             },
             {
                 type: "Języki Obce",
-                content: "odp"
+                content: "101-125"
             },
             {
                 type: "Matematyka",
-                content: "odp"
+                content: "125-200"
             },
 
         ]

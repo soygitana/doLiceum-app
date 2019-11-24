@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import home1 from '../assets/home1.jpeg';
-import home2 from '../assets/home2.jpeg';
+import quiz from '../assets/quiz.jpeg';
+import quiz2 from '../assets/quiz2.jpeg';
 
 
 
@@ -12,15 +12,15 @@ class Hero extends Component {
                 <div className="app-container">
                     <section id="about" className="hero">
                         <div className="container-flex">
-                            <div className="title-main">Nie wiesz którą szkołę wybrać? Rekrutacja do szkół średnich to poważna sprawa. W tym roku będzie ona znacznie prostsza. Znajdź szkołę marzeń za trzecim kliknięciem!</div>
+                            <div className="title-main">Rozwiąż quiz i znajdź idealne liceum</div>
                             <div className="box-flex">
-                                <img className="img-fluid" src={home1} alt="city" />
+                                <img className="img-fluid" src={quiz2} alt="city" />
                                 <h2 className="title">Wybierz swoją drogę</h2>
                                 <Link className="button" to="/search">ZNAJDŹ LO</Link>
                             </div>
                             <div className="box-flex">
-                                <img className="img-fluid" src={home2} alt="yoga" />
-                                <h2 className="title">Sprawdź swoje predyspozycje</h2>
+                                <img className="img-fluid" src={quiz} alt="yoga" />
+                                <h2 className="title">Rozwiąż quiz</h2>
                                 <Link className="button" to="/quiz">QUIZ</Link>
                             </div>
                         </div>

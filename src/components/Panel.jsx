@@ -40,7 +40,6 @@ class Panel extends Component {
                                                 <div className="card-social">
                                                     <a href="#"><i className="fas fa-envelope"></i></a>
                                                     <a href="#"><i className="fas fa-phone"></i></a>
-                                                    <a href="#"><i className="fab fa-linkedin"></i></a>
                                                 </div>
                                             </div>
                                         </div>

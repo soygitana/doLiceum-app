@@ -37,7 +37,8 @@
   .title {
     margin-top: 25px;
     margin-bottom: 5px;
-    color: $colorDarkestGrey;
+    // color: $colorDeco;
+    // font-weight: 600;
     text-align: center;
   }
 
@@ -62,10 +63,13 @@
   }
 
   .title-main {
-    font-size: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
     width: 100%;
     padding: 50px;
     text-align: center;
     line-height: 1.5;
+    color: $colorDeco;
+    font-weight: 600;
   }
 }

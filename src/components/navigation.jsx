@@ -19,9 +19,10 @@ class Navigation extends Component {
                         <h1>do<span>LICEUM</span></h1>
                         <ul className="page-nav-list">
                             <li><Link to='/#'>strona główna</Link></li>
-                            <li><Link to='/search'>znajdź szkołę</Link></li>
                             <li><Link to='/quiz'>quiz</Link></li>
+                            <li><Link to='/search'>znajdź szkołę</Link></li>
                             <li><Link to='/contact'>kontakt</Link></li>
+                            <li><Link to='/faq'>FAQ</Link></li>
                         </ul>
                     </nav>
                 </div>

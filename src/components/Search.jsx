@@ -7,7 +7,7 @@ class Search extends Component {
 
             <div className="app-container">
                 <section id="search" className="contact">
-                    <h2 className="title">znajdź LO!</h2>
+                    <h2 className="title">znajdź najlepsze LO!</h2>
                     <Searchbar />
 
 
